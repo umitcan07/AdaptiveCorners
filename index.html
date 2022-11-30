@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta lang="en">
+    <title>Adaptive Corners</title>
+</head>
+<body>
+
+<div class="flex">
+    <p> Radius: </p>
+    <label>
+        <input class="radius-slider" name="radius" type="range" min="0" max="64" value="8">
+    </label>
+</div>
+
+<div class="flex">
+    <p> Size: </p>
+    <label>
+        <input class="size-slider" name="size" type="range" min="16" max="256" value="64">
+    </label>
+</div>
+
+<svg class="mySVG" height="64px" width="64px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path class="myPath" d="" fill="#6936F5"/>
+</svg>
+
+<script src="script.js"> </script>
+</body>
+</html>
